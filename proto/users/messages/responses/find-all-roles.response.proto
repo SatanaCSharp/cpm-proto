@@ -1,5 +1,5 @@
 syntax = "proto3";
-import "permission.proto";
+import "proto/users/messages/enums/permission.proto";
 
 message Role {
   int32 id = 1;

@@ -1,8 +1,8 @@
 syntax = "proto3";
-import "create-role.request.proto";
-import "create-role.response.proto";
-import "find-all-roles.request.proto";
-import "find-all-roles.response.proto";
+import "proto/users/messages/requests/create-role.request.proto";
+import "proto/users/messages/responses/create-role.response.proto";
+import "proto/users/messages/requests/find-all-roles.request.proto";
+import "proto/users/messages/responses/find-all-roles.response.proto";
 package users;
 
 service RolesService {

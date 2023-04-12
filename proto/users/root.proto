@@ -1,4 +1,4 @@
 syntax = "proto3";
-import "roles.proto";
-import "users.proto";
+import "proto/users/roles.proto";
+import "proto/users/users.proto";
 package users;
