@@ -1,0 +1,4 @@
+syntax = "proto3";
+import "roles.proto";
+import "users.proto";
+package users;

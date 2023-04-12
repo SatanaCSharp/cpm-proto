@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+enum Permission {
+  CAN_READ_ROLES = 0;
+  CAN_CREATE_ROLES = 1;
+  CAN_EDIT_ROLES = 2;
+  CAN_DELETE_ROLES = 3;
+
+  CAN_READ_USERS = 4;
+  CAN_EDIT_USERS = 5;
+  CAN_DELETE_USERS = 6;
+  CAN_CREATE_USERS = 7;
+}

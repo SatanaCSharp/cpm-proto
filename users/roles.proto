@@ -1,0 +1,11 @@
+syntax = "proto3";
+import "create-role.request.proto";
+import "create-role.response.proto";
+import "find-all-roles.request.proto";
+import "find-all-roles.response.proto";
+package users;
+
+service RolesService {
+  rpc CreateRole (CreateRoleRequest) returns (CreateRoleResponse) {}
+  rpc FindAll (FindAllRolesRequest) returns (FindAllResponse) {}
+}
