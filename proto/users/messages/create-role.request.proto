@@ -1,5 +1,6 @@
 syntax = "proto3";
-import "proto/users/messages/enums/permission.proto";
+import "enums/permission.proto";
+package users;
 
 message CreateRoleRequest {
   string name = 1;

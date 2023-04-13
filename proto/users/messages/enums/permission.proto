@@ -1,4 +1,5 @@
 syntax = "proto3";
+package users;
 
 enum Permission {
   CAN_READ_ROLES = 0;
